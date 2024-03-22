@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.632" height="19.632" viewBox="0 0 19.632 19.632">
+  <g id="Component_880_11" data-name="Component 880 – 11" transform="translate(0.75 0.75)">
+    <g id="Rectangle" transform="translate(13.822 2.06)" fill="#f8f8fa" stroke="rgba(112,112,112,0.03)" stroke-width="1" opacity="0">
+      <rect width="1.805" height="13.539" rx="0.903" stroke="none"/>
+      <rect x="0.5" y="0.5" width="0.805" height="12.539" rx="0.403" fill="none"/>
+    </g>
+    <text id="Search" transform="translate(4.796 10.281)" fill="#8d929a" font-size="1" font-family="Somar-Medium, Somar" font-weight="500" letter-spacing="-0.016em" opacity="0"><tspan x="0" y="0">ابحث هنا</tspan></text>
+    <g id="Iconly_Curved_Search" data-name="Iconly/Curved/Search" transform="translate(3.408 2.734)" opacity="0">
+      <g id="Search-2" data-name="Search">
+        <path id="Stroke_1" data-name="Stroke 1" d="M5.831,0A5.831,5.831,0,1,1,0,5.831,5.831,5.831,0,0,1,5.831,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path id="Stroke_3" data-name="Stroke 3" d="M.961,0A.961.961,0,1,1,0,.961.961.961,0,0,1,.961,0Z" transform="translate(10.743 10.743)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+    </g>
+    <g id="Iconly_Curved_Search-2" data-name="Iconly/Curved/Search">
+      <g id="Search-3" data-name="Search">
+        <path id="Stroke_1-2" data-name="Stroke 1" d="M8.348,0A8.348,8.348,0,1,1,0,8.348,8.348,8.348,0,0,1,8.348,0Z" fill="none" stroke="#1b315a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path id="Stroke_3-2" data-name="Stroke 3" d="M1.376,0A1.376,1.376,0,1,1,0,1.375,1.376,1.376,0,0,1,1.376,0Z" transform="translate(15.38 15.381)" fill="none" stroke="#1b315a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+    </g>
+    <g id="Group_17969" data-name="Group 17969" transform="translate(-1188.417 -47.67)" opacity="0">
+      <line id="Line_8" data-name="Line 8" x1="0.739" y2="0.665" transform="translate(1196.5 56.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Line_9" data-name="Line 9" x2="0.739" y2="0.665" transform="translate(1196.5 56.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

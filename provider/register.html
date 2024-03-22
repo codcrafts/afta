@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- START:: UTF8 -->
+    <meta charset="UTF-8">
+    <!-- START::  AUTHOR -->
+    <meta name="author" content="AhMeD EL-AwaDy">
+    <!-- START:: ROBOTS -->
+    <meta name="robots" content="index/follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- START:: VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- START:: HANDHELFRIENDLY -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- START:: DESCRIPTION -->
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+    <!-- START:: KEYWORD -->
+    <meta name="keyword"
+        content="agency, business, corporate, creative, freelancer, minimal, modern, personal, portfolio, responsive, simple, cartoon">
+    <!-- START:: THEME COLOR -->
+    <meta name="theme-color" content="#212121">
+    <!-- START:: THEME COLOR IN MOBILE -->
+    <meta name="msapplication-navbutton-color" content="#15264B">
+    <!-- START:: THEME COLOR IN MOBILE -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#15264B">
+    <!-- START:: TITLE -->
+    <title>AFTA - Register</title>
+    <!-- START:: FAVICON -->
+    <link rel="shortcut icon" type="image/svg" href="../assets/images/logo/favicon.svg">
+    <!-- START:: STYLE LIBRARIES -->
+
+    <!-- START:: BOOTSTRAP -->
+    <link rel="stylesheet" href="../assets/css/bootstrap/bootstrap.min.css">
+    <!-- START:: OWL CAROUSEL -->
+    <link rel="stylesheet" href="../assets/css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/css/owl-carousel/owl.theme.default.min.css">
+    <!-- START:: ANIMATE -->
+    <link rel="stylesheet" href="../assets/css/animate/animate.css">
+    <!-- START:: FONT AWSOME -->
+    <link rel="stylesheet" href="../assets/css/font-awsome/all.css">
+    <!-- START:: CUSTOM STYLE -->
+    <link rel="stylesheet" href="../assets/css/custom/style.css" />
+
+    <!-- END:: STYLE LIBRARIES -->
+</head>
+
+<body>
+    <!-- START:: AUTH PAGES -->
+    <section class="auth_page">
+        <div class="row">
+            <!-- START:: RIGHT PART -->
+            <div class="col-md-7">
+                <div class="auth_right_part">
+                    <div class="auth_logo_part">
+                        <img src="../assets/images/logo/logo.svg" width="220" height="92" />
+                    </div>
+                    <div class="auth_vector">
+                        <img src="../assets/images/vectors/login.svg" />
+                    </div>
+                </div>
+
+            </div>
+            <!-- END:: RIGHT PART -->
+
+            <!-- START:: LEFT PART -->
+            <div class="col-md-5">
+                <div class="auth_text_form">
+                    <div class="auth_head">
+                        <h1>إنشاء حساب جديد</h1>
+                        <p>مرحبا بك يمكنك تسجيل بياناتك لإنشاء حساب جديد</p>
+                        <h6>من فضلك أدخل البيانات التالية لإكمال عملية التسجيل</h6>
+                    </div>
+
+                    <div class="forms mt-5">
+
+                        <form class="registration-form" action="success-message.html" method="post" autocomplete="off">
+                            <fieldset class="form-row tab">
+
+                                <div class="reg_file_prev">
+
+                                    <div class="left-part">
+                                        <label for="formFile" class="prev-image-label">
+                                            <input class="form-control d-none" type="file" id="formFile"
+                                                onchange="preview()">
+                                            <img id="frame" src="" class="img-fluid" alt="." />
+                                            <button onclick="clearImage()" type="button"><i
+                                                    class="fas fa-times"></i></button>
+                                        </label>
+                                    </div>
+
+                                    <div class="right-part">
+                                        <div class="form-group mt-3">
+                                            <input type="text" class="form-control" name="fullname"
+                                                placeholder="اسم المستخدم ثلاثي" required />
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <input type="email" class="form-control" name="email"
+                                                placeholder="البريد الإلكتروني" required />
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <select class="form-select" aria-label="Default select example" required>
+                                        <option selected>اختر نوع مقدم الخدمة</option>
+                                        <option value="1">مقدم خدمة 1</option>
+                                        <option value="2">مقدم خدمة 2</option>
+                                        <option value="3">مقدم خدمة 3</option>
+                                        <option value="3">مقدم خدمة 4</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <input type="text" class="form-control" name="fullname"
+                                        placeholder="قسم الخدمة المقدمة الرئيسي" required />
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <input type="text" class="form-control" name="fullname"
+                                        placeholder="قسم الخدمة المقدمة الفرعي" required />
+                                </div>
+
+                                <div class="form-group password_show_hide mt-3">
+                                    <input type="password" class="form-control" id="password" name="password"
+                                        placeholder="كلمة السر" required />
+                                    <span onclick="password_show_hide();">
+                                        <img src="../assets/images/icons/eye-show.svg" id="show_eye" width="20"
+                                            height="16" />
+                                        <img src="../assets/images/icons/eye-hide.svg" id="hide_eye" width="20"
+                                            height="16" />
+                                    </span>
+                                </div>
+
+                                <div class="form-group password_show_hide mt-3">
+                                    <input type="password" class="form-control" id="confirm_password" name="password"
+                                        placeholder="تأكيد كلمة السر" required />
+                                    <span onclick="password_show_hide_confirm();">
+                                        <img src="../assets/images/icons/eye-show.svg" id="show_eye1" width="20"
+                                            height="16" />
+                                        <img src="../assets/images/icons/eye-hide.svg" id="hide_eye1" width="20"
+                                            height="16" />
+                                    </span>
+                                </div>
+                                <div class="btn-submit mb-5 mt-5">
+                                    <button class="btn-next" type="button">التالي</button>
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="form-row tab">
+
+                                <div class="title_form">
+                                    <h5>بيانات السجل التجاري</h5>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <input type="number" class="form-control" name="commercialNumber"
+                                        placeholder="رقم الهوية أو الإقامة" required />
+                                </div>
+
+                                <div class="form-group custom-file-provider mt-3">
+                                    <label class="custom-file-upload form-control" for="commercial_register">
+                                        صورة السجل التجاري
+                                    </label>
+                                    <input class="file-upload" name="file_name" type="file" id="commercial_register">
+                                    <img src="./../assets/images/icons/Upload.svg">
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <input type="text" onblur="(this.type='text')" onfocus="(this.type='date')"
+                                        class="form-control" placeholder="تاريخ إصدار السجل التجاري" required />
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <input type="text" onblur="(this.type='text')" onfocus="(this.type='date')"
+                                        class="form-control" placeholder="تاريخ إنتهاء السجل التجاري" required />
+                                </div>
+
+                                <div class="title_form">
+                                    <h5>وثيقة العمل</h5>
+                                </div>
+                                <div class="form-group custom-file-provider mt-3">
+                                    <label class="custom-file-upload form-control" for="document_image">
+                                        صورة الوثيقة
+                                    </label>
+                                    <input class="file-upload" name="file_name" type="file" id="document_image">
+                                    <img src="./../assets/images/icons/Upload.svg">
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <input type="number" class="form-control" name="documentNumber"
+                                        placeholder="رقم الوثيقة" required />
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <input type="text" onblur="(this.type='text')" onfocus="(this.type='date')"
+                                        class="form-control" name="documentDate" placeholder="تاريخ الوثيقة" required />
+                                </div>
+
+                                <div class="title_form">
+                                    <h5>بيانات الهوية</h5>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <!-- START:: Note -> Add minlength="8" maxlength="14" For input number  -->
+                                    <input type="number" class="form-control" name="commercialNumber"
+                                        placeholder="رقم الهوية أو الإقامة" required />
+                                </div>
+
+                                <div class="form-group custom-file-provider mt-3">
+                                    <label class="custom-file-upload form-control" for="commercial">
+                                        صورة الهوية أو الإقامة
+                                    </label>
+                                    <input class="file-upload" name="file_name" type="file" id="commercial">
+                                    <img src="./../assets/images/icons/Upload.svg">
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <input type="text" onblur="(this.type='text')" onfocus="(this.type='date')"
+                                        class="form-control" placeholder="تاريخ إصدار الهوية أو الإقامة" required />
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <input type="text" onblur="(this.type='text')" onfocus="(this.type='date')"
+                                        class="form-control" placeholder="تاريخ إنتهاء الهوية أو الإقامة" required />
+                                </div>
+                                <div class="btn-submit mb-5 mt-5">
+                                    <button type="button" class="btn-previous">السابق</button>
+                                    <button class="btn-next" type="button">التالي</button>
+                                </div>
+
+                            </fieldset>
+
+                            <fieldset class="form-row tab">
+                                <div class="title_form">
+                                    <h5>بيانات المنشأة</h5>
+                                </div>
+                                <div class="reg_file_prev">
+
+                                    <div class="left-part">
+                                        <label for="formFile2" class="prev-image-label">
+                                            <input class="form-control d-none" type="file" id="formFile2"
+                                                onchange="preview2()">
+                                            <img id="frame2" src="" class="img-fluid" alt="." />
+                                            <button onclick="clearImage2()" type="button"><i
+                                                    class="fas fa-times"></i></button>
+                                        </label>
+                                    </div>
+
+                                    <div class="right-part">
+                                        <div class="form-group mt-3">
+                                            <input type="text" class="form-control" name="companyName"
+                                                placeholder="اسم المنشأه" required />
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <input type="number" class="form-control" name="tax_number"
+                                                placeholder="الرقم الضريبي" required />
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <input type="text" class="form-control" name="profession_license"
+                                        placeholder="ترخيص مزاولة المهنة" required />
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <input type="text" class="form-control" name="license_number"
+                                        placeholder="الرقم الترخيصي" required />
+                                </div>
+
+                                <div class="title_form">
+                                    <h5>بيانات الحساب البنكي</h5>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <input type="text" class="form-control" name="bank_name" placeholder="إسم البنك"
+                                        required />
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <input type="text" class="form-control" name="beneficiary_name"
+                                        placeholder="إسم المستفيد" required />
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <input type="number" class="form-control" name="account_number"
+                                        placeholder="رقم الحساب" required />
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <input type="text" class="form-control" name="ipan_number" placeholder="رقم الايبان"
+                                        required />
+                                </div>
+                                
+                                <div class="btn-submit mb-5 mt-5">
+                                    <button type="button" class="btn-previous">السابق</button>
+                                    <button type="submit">تسجيل</button>
+                                </div>
+
+                            </fieldset>
+                            
+                            <div class="already_have_account">
+                                <p>
+                                    لديك حساب بالفعل
+                                    <a href="login.html">تسجيل الدخول</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <!-- START:: INCLUDING SCRIPTS -->
+
+    <!-- START:: JQUERY -->
+    <script src="../assets/js/jquery/jquery-3.4.1.min.js"></script>
+    <!-- START:: BOOTSTRAP -->
+    <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- START:: OWL CAROUSEL -->
+    <script src="../assets/js/owl-carousel/owl.carousel.min.js"></script>
+    <!-- START:: FONT AWSOME -->
+    <script src="../assets/js/font-awsome/all.js"></script>
+    <!-- START:: ANIMATE -->
+    <script src="../assets/js/animate/wow.min.js"></script>
+    <!-- START:: CUSTOM JS -->
+    <script src="../assets/js/custom/main.js"></script>
+    <script>
+
+    </script>
+    <!-- END::  INCLUDING SCRIPTS -->
+</body>
+
+</html>
